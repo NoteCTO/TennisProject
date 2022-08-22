@@ -3,7 +3,7 @@ import cv2
 from matplotlib import pyplot as plt
 from sympy import Line
 from itertools import combinations
-from court_reference import CourtReference
+from src.court_reference import CourtReference
 import scipy.signal as sp
 
 
