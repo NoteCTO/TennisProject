@@ -9,7 +9,7 @@ from scipy.signal import find_peaks
 
 from src.detection import DetectionModel, center_of_box
 from src.pose import PoseExtractor
-from smooth import Smooth
+from src.smooth import Smooth
 from src.ball_detection import BallDetector
 from src.statistics import Statistics
 from src.stroke_recognition import ActionRecognition
