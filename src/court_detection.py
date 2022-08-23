@@ -102,8 +102,8 @@ class CourtDetector:
         """
         Finds all line in frame using Hough transform
         """
-        minLineLength = 1
-        maxLineGap = 2
+        minLineLength = 2
+        maxLineGap = 1
         # Detect all lines
         lines = cv2.HoughLinesP(gray, 1, np.pi / 180, 80, minLineLength=minLineLength, maxLineGap=maxLineGap)
         lines = np.squeeze(lines)
